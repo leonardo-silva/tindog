@@ -12,6 +12,8 @@
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;900&family=Ubuntu:wght@300&display=swap" rel="stylesheet">
+  <!-- Fontawesome icons -->
+  <script src="https://kit.fontawesome.com/1c9ad4b785.js" crossorigin="anonymous"></script>
 </head>
 
 <body>
@@ -19,37 +21,39 @@
   <section id="title">
 
     <div class="container-fluid">
-      <!-- Nav Bar -->
-      <nav class="navbar navbar-expand-lg navbar-dark">
-        <a class="navbar-brand" href="">tindog</a>
-        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarTogglerDemo02" aria-controls="navbarTogglerDemo02" aria-expanded="false" aria-label="Toggle navigation">
-          <span class="navbar-toggler-icon"></span>
-        </button>
-        <div class="collapse navbar-collapse" id="navbarTogglerDemo02">
-            <ul class="navbar-nav ms-auto">
-                <li class="nav-item">
-                    <a class="nav-link" href="">Contact</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="">Pricing</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="">Download</a>
-                </li>
-            </ul>
-        </div>
-      </nav>
+      <div id="mynavbar">
+        <!-- Nav Bar -->
+        <nav class="navbar navbar-expand-lg navbar-dark">
+          <a class="navbar-brand" href="">tindog</a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarTogglerDemo02" aria-controls="navbarTogglerDemo02" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarTogglerDemo02">
+              <ul class="navbar-nav ms-auto">
+                  <li class="nav-item me-4">
+                      <a class="nav-link" href="">Contact</a>
+                  </li>
+                  <li class="nav-item me-4">
+                      <a class="nav-link" href="">Pricing</a>
+                  </li>
+                  <li class="nav-item">
+                      <a class="nav-link" href="">Download</a>
+                  </li>
+              </ul>
+          </div>
+        </nav>
+      </div>
 
       <!-- Title -->
 
       <div class="row">
         <div class="col-lg-6">
           <h1>Meet new and interesting dogs nearby.</h1>
-          <button type="button">Download</button>
-          <button type="button">Download</button>
+          <button type="button" class="btn btn-dark btn-lg btn-download"><i class="fab fa-apple"></i> Download</button>
+          <button type="button" class="btn btn-outline-light btn-lg btn-download"><i class="fab fa-google-play"></i> Download</button>
         </div>
         <div class="col-md-6">
-          <img src="images/iphone6.png" alt="iphone-mockup">
+          <img src="images/iphone6.png" alt="iphone-mockup" id="iphone6-mockup">
         </div>
       </div>
 
