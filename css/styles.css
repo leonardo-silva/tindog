@@ -11,13 +11,44 @@ h1 {
     margin-bottom: 20px;
 }
 
+h3 {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+
 /* Class selectors */
 .btn-download {
     margin: 5% 3% 5% 0;
 }
 
+.circle-check-logo {
+    color: #ef8172;
+    /* font-size: 3.5rem;  class fa-4x has similar effect */
+    margin-bottom: 1rem;
+}
+
+.circle-check-logo:hover {
+    color: #ff4c68;
+}
+
 .container-fluid {
     padding: 3% 15%;
+}
+
+.feature-column {
+    margin-top: 10%;
+    padding: 0 4%;
+}
+
+.feature-p {
+    color: #8f8f8f;
+    padding: 0 5%;
+}
+
+.feature-row {
+    margin: 0 9% 5%;
+    text-align: center;
 }
 
 .nav-link {
