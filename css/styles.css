@@ -11,6 +11,13 @@ h1 {
     margin-bottom: 20px;
 }
 
+h2 {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 3rem;
+    font-weight: bold;
+    line-height: 1.5;
+}
+
 h3 {
     font-family: 'Montserrat', sans-serif;
     font-size: 1.5rem;
@@ -65,6 +72,17 @@ h3 {
     font-weight: 800;
 }
 
+.press-logo {
+    margin: 20px 20px 50px;
+    width: 15%;
+}
+
+.testimonial-img {
+    border-radius: 100%;
+    margin: 20px;
+    width: 10%;
+}
+
 /* ID selectors */
 #iphone6-mockup {
     height: 500px;
@@ -74,6 +92,19 @@ h3 {
 
 #mynavbar {
     width: 84%;
+}
+
+#press {
+    background-color: #ef8172;
+    text-align: center;
+    padding-bottom: 3%;
+}
+
+#testimonials {
+    background-color: #ef8172;
+    color: white;
+    padding: 7% 15%;
+    text-align: center;
 }
 
 #title {
