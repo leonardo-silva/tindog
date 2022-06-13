@@ -29,6 +29,10 @@ h3 {
     margin: 5% 3% 5% 0;
 }
 
+.carousel-item {
+    padding: 7% 15%;
+}
+
 .circle-check-logo {
     color: #ef8172;
     /* font-size: 3.5rem;  class fa-4x has similar effect */
@@ -103,7 +107,6 @@ h3 {
 #testimonials {
     background-color: #ef8172;
     color: white;
-    padding: 7% 15%;
     text-align: center;
 }
 
