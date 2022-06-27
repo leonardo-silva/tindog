@@ -44,7 +44,7 @@ h3 {
 }
 
 .container-fluid {
-    padding: 3% 15%;
+    padding: 3% 15% 4%;
 }
 
 .feature-column {
@@ -81,6 +81,10 @@ h3 {
     width: 15%;
 }
 
+.pricing-column {
+    padding: 3% 2%;
+}
+
 .testimonial-img {
     border-radius: 100%;
     margin: 20px;
@@ -88,20 +92,34 @@ h3 {
 }
 
 /* ID selectors */
+#features {
+    background-color: white;
+    position: relative;
+    /* z-index: 1; */
+}
+
 #iphone6-mockup {
     height: 500px;
+    position: absolute;
     transform: rotate(20deg);
     width: 250px;
+    /* z-index: 0; */
+    right: 30%;
 }
 
 #mynavbar {
-    width: 84%;
+    width: 90%;
 }
 
 #press {
     background-color: #ef8172;
     text-align: center;
     padding-bottom: 3%;
+}
+
+#pricing {
+    padding: 100px;
+    text-align: center;
 }
 
 #testimonials {
@@ -113,4 +131,15 @@ h3 {
 #title {
     background-color: #ff4c68;
     color: white;
+}
+
+@media (max-width: 1028px) {
+    #iphone6-mockup {
+        position: static;     
+        transform: rotate(0);  
+    }
+
+    #title {
+        text-align: center;
+    }
 }
